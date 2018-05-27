@@ -1,0 +1,21 @@
+{
+  "env": {
+    "mocha": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:unicorn/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "prettier"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "unicorn"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

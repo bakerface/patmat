@@ -1,0 +1,46 @@
+{
+  "name": "patmat",
+  "version": "1.0.0",
+  "description": "Pattern matching in vanilla JavaScript",
+  "author": "Chris Baker <mail.chris.baker@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/bakerface/patmat#readme",
+  "main": "index.js",
+  "keywords": [
+    "pattern",
+    "matching",
+    "union",
+    "algebraic",
+    "data",
+    "type"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakerface/patmat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bakerface/patmat/issues"
+  },
+  "scripts": {
+    "test": "eslint src"
+  },
+  "nyc": {
+    "branches": 100,
+    "functions": "100",
+    "lines": "100",
+    "statements": 100,
+    "reporters": [
+      "text"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-unicorn": "^4.0.3",
+    "mocha": "^5.2.0",
+    "nyc": "^11.8.0",
+    "prettier": "^1.12.1"
+  }
+}
