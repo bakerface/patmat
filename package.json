@@ -1,5 +1,5 @@
 {
-  "name": "patmat",
+  "name": "@bakerface/patmat",
   "version": "1.0.0",
   "description": "Pattern matching in vanilla JavaScript",
   "author": "Chris Baker <mail.chris.baker@gmail.com>",

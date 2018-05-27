@@ -6,7 +6,7 @@ This package was inspired by [Bram Stein's write up](https://www.bramstein.com/w
 ## Factorial
 
 ``` javascript
-const { $, match } = require("patmat");
+const { $, match } = require("@bakerface/patmat");
 
 const factorial = match([
   [0, () => 1],
@@ -19,7 +19,7 @@ console.log(factorial(5)); // 120
 ## Binary Tree
 
 ``` javascript
-const { $, _, type, match } = require("patmat");
+const { $, _, type, match } = require("@bakerface/patmat");
 
 const nil = type();
 const node = type(t => [Number, t, t]);
